@@ -11,4 +11,3 @@ Project By<br>
 2 NODEJS<br>
 3 NPM<br>
 4 C++
-Integrating jenkins
