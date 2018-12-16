@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/adarshsaraogi/ecommerce_app.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Adarsh",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/adarshsaraogi/ecommerce_app/issues"
   },
-  "homepage": "https://github.com/adarshsaraogi/ecommerce_app#readme"
+  "homepage": "https://github.com/adarshsaraogi/ecommerce_app#readme",  
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
 }
