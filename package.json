@@ -4,10 +4,11 @@
   "description": "\"ecommerce app\"",
   "main": "index.js",
   "scripts": {
-    "start": "node bin/dev",
+    "start": "nodemon bin/dev",
     "clean": "rm -rf dist",
     "build": "npm run clean && mkdir dist && babel controllers -s -d dist",
-    "production":"npm run build && node bin/production"
+    "production": "npm run build && node bin/production",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,9 @@
   "homepage": "https://github.com/adarshsaraogi/ecommerce_app#readme",
   "dependencies": {
     "babel-register": "^6.26.0",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
+    "mongoose": "^5.4.0",
     "pug": "^2.0.3"
   },
   "devDependencies": {
@@ -31,6 +34,9 @@
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^5.10.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "gulp": "^4.0.0",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1"
   }
 }
